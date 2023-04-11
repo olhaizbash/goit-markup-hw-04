@@ -254,7 +254,9 @@ display: block;
 header{
     border-bottom: 1px solid #E7E9FC;
     background: #FFFFFF;
-    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header{
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .team-card {
     background-color: #FFFFFF;
@@ -417,7 +419,7 @@ margin: 0 auto;
     background-color: var(--logo-color);
 }
 .social-list-link:hover,
-.social-list:focus {
+.social-list-link:focus {
     background-color: var(--ocean);
 }
 .image{
