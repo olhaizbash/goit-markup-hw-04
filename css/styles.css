@@ -179,6 +179,7 @@ display: block;
 .main-button:hover,
 .main-button:focus{
     border-radius: 4px;
+    background-color: var(--ocean);
 }
 .about-title-two{
         font-weight: 500;
